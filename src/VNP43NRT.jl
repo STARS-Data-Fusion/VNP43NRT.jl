@@ -7,7 +7,9 @@ using Rasters
 using DimensionalData.Dimensions.LookupArrays
 using ProgressMeter
 
-using MODLAND
+include("MODLAND.jl")
+
+using .MODLAND
 
 include("VIIRS.jl")
 
